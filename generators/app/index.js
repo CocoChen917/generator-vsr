@@ -32,6 +32,32 @@ module.exports = class extends Generator {
         console.log('---' + msg);
         console.log('+++++' + this.scriptSuffix)
     }
+    prompting() {
+        const prompts = [
+          {
+            name: 'isTypeScript',
+            type: 'confirm',
+            message: 'Do you want to use typescript?',
+            default: false,
+          },
+          {
+            name: 'reactFeatures',
+            message: 'What functionality do you want to enable?',
+            type: 'checkbox',
+            choices: [
+              { name: 'antd', value: 'antd' },
+              { name: 'dva', value: 'dva' },
+              { name: 'code splitting', value: 'dynamicImport' },
+              { name: 'dll', value: 'dll' },
+              { name: 'internationalization', value: 'locale' },
+            ],
+          },
+        ];
+        return this.prompt(prompts).then(props => {
+            console.log(props);
+            this.prompts = props;
+        });
+    }
     /*
     async prompting() {
         const answers = await this.prompt([
