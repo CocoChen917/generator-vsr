@@ -1,6 +1,12 @@
-# generator-vsr
-yeoman generator for vue-ssr cli
-
+<p align="center">
+	<h3>generator-vsr</h3>
+	<p>yeoman generator for vue-ssr cli</p>
+</p>
+<p align="center">
+	<a href="https://travis-ci.org/CocoChen917/generator-vsr">
+		<img src="https://travis-ci.com/CocoChen917/generator-vsr.svg?branch=master">
+	</a>
+</p>
 Develop：
 
 * 安装yo -g
