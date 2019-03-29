@@ -1,12 +1,13 @@
-<p align="center">
-	<h3>generator-vsr</h3>
-	<p>yeoman generator for vue-ssr cli</p>
-</p>
-<p align="center">
-	<a href="https://travis-ci.org/CocoChen917/generator-vsr">
-		<img src="https://travis-ci.com/CocoChen917/generator-vsr.svg?branch=master">
-	</a>
-</p>
+
+# generator-vsr
+
+[![Build Status](https://travis-ci.com/CocoChen917/generator-vsr.svg?branch=master)](https://travis-ci.org/CocoChen917/generator-vsr)
+
+> :gem: yeoman generator for vue-ssr cli
+
+![logo](https://refined-x.com/asset/vsc-logo.png)
+
+
 Develop：
 
 * 安装yo -g
